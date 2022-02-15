@@ -1,5 +1,3 @@
-
-
 export const listSection = document.querySelector('.list-section');
 
 export const bookTitle = document.querySelector('#title');

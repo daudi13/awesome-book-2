@@ -1,6 +1,6 @@
-import UpdateDisplay from "./modules/Class/mainClass.js";
-import * as selectors from "./modules/selector/selectors.js";
-import { time } from "./modules/time/time.js";
+import UpdateDisplay from './modules/Class/mainClass.js';
+import * as selectors from './modules/selector/selectors.js';
+import { time } from './modules/time/time.js';
 
 selectors.listBtn.forEach((btn, i) => {
   btn.onclick = () => {
@@ -16,5 +16,4 @@ selectors.listBtn.forEach((btn, i) => {
 
 setInterval(time, 1000);
 UpdateDisplay.updateUi();
-UpdateDisplay.formBtn.addEventListener('click', UpdateDisplay.addBooks)
-
+UpdateDisplay.formBtn.addEventListener('click', UpdateDisplay.addBooks);

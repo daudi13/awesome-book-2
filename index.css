@@ -2,20 +2,19 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-	
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
-	height: 100vh;
+  height: 100vh;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-	align-items: center;
+  align-items: center;
   width: 90vw;
   border: 2px solid black;
   padding: 1px 8px;
@@ -23,13 +22,13 @@ nav {
 }
 
 .nav .listBtn {
-	cursor: pointer;
-	transition: all 0.5s ease;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 .nav .listBtn:hover {
-	transform: scale(0.98);
-	color: aqua;
+  transform: scale(0.98);
+  color: aqua;
 }
 
 header ul {
@@ -42,10 +41,11 @@ header li {
 }
 
 .bookBlock {
-	align-items: center;
+  align-items: center;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 
 header li + li {
   border-left: 2px solid black;
@@ -54,7 +54,7 @@ header li + li {
 
 .date {
   text-align: right;
-	margin: 8px 0;
+  margin: 8px 0;
 }
 
 section {
@@ -72,6 +72,7 @@ section {
 
 .contact {
   display: none;
+  max-width: 500px;
 }
 
 .active {
@@ -83,7 +84,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-	justify-content: center;
+  justify-content: center;
   margin-top: 20px;
   padding: 10px;
   height: 700px;
@@ -96,30 +97,22 @@ section {
 .list-section {
   border: 2px solid black;
   width: 100%;
-	max-height: 500px;
-	border-radius: 10px;
-	max-width: 600px;
-	margin: auto;
-	overflow: auto;
-}
-
-.contact {
-	max-width: 500px;
+  max-height: 500px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  overflow: auto;
 }
 
 .contact ul {
-	max-width: 80%;
-	margin-left: 100px !important;
+  max-width: 80%;
+  text-align: left;
+  margin: 20px 100px;
+  width: 90%;
 }
 
 .contact ul > li + li {
-	margin-top: 10px;
-}
-
-.bookBlock {
-  padding: 10px 15px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 10px;
 }
 
 .bookBlock:nth-child(odd) {
@@ -129,8 +122,8 @@ section {
 form {
   display: flex;
   flex-direction: column;
-	max-width: 400px;
-	margin: auto;
+  max-width: 400px;
+  margin: auto;
 }
 
 form > * + * {
@@ -146,13 +139,6 @@ input {
 button {
   align-self: flex-end;
   box-shadow: 1px 2px 2px 1px black;
-	padding: 5px 10px;
-	border: 2px solid black;
-}
-
-
-.contact ul {
-  text-align: left;
-  margin: 20px 40px;
-  width: 90%;
+  padding: 5px 10px;
+  border: 2px solid black;
 }

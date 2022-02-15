@@ -1,13 +1,12 @@
-import * as selectors from "../selector/selectors.js"
-import Books from "../Class/books.js";
-
+import * as selectors from '../selector/selectors.js';
+import Books from './books.js';
 
 export default class UpdateDisplay {
   constructor(author, title) {
     this.title = title;
     this.author = author;
-	}
-	
+  }
+
 static books = [];
 
 static listSection = selectors.listSection;
@@ -35,7 +34,7 @@ static addBooks() {
   UpdateDisplay.bookTitle.value = '';
   UpdateDisplay.addBookItem(bookItem, UpdateDisplay.books.length - 1);
 }
-	
+
 static delBook(bookItem, pos) {
   const bookBlock = document.getElementById(pos);
   UpdateDisplay.books = UpdateDisplay.books.filter((item) => item !== bookItem);
