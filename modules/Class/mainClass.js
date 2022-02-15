@@ -63,7 +63,7 @@ static addBookItem(bookItem, pos) {
   removeBtn.classList.add('remove-btn');
 
   bookBlock.innerHTML = `
-      <p class='book-title'>'${bookItem.author}  by ${bookItem.title}</p>`;
+      <p class='book-title'>'${bookItem.author}'  by ${bookItem.title}</p>`;
 
   removeBtn.innerText = 'remove';
 

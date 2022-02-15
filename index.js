@@ -1,6 +1,8 @@
 import UpdateDisplay from './modules/Class/mainClass.js';
 import * as selectors from './modules/selector/selectors.js';
-import { time } from './modules/time/time.js';
+import {
+  time,
+} from './modules/time/time.js';
 
 selectors.listBtn.forEach((btn, i) => {
   btn.onclick = () => {
