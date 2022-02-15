@@ -1,7 +1,7 @@
-import { DateTime } from "../luxon/build/es6/luxon.js";
 import { timebox } from "../selector/selectors.js";
+import { DateTime } from '../luxon/src/luxon.js';
 
 export function time() {
 	const date = DateTime.local();
-	timebox.textContent = `${date.toLocaleTimeString(locale, options)}`;
+	timebox.textContent = `${date.toHTTP()}`;
 }
