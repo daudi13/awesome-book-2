@@ -2,16 +2,16 @@
 
 # Awesome books
 
-![screenshot](./awesomebook.png)
+![screenshot](./awesome.png)
 
 > This is a team project in the Microverse second Module. The project is a book application that enables a user to add and remove books to a list
 
 The endgoal of the project is to build the application using Vanilla JavaScript and ES6 Modules.   
-Click [here](https://daudi13.github.io/Awesome-books/) to get a live preview of the project
+Click [here](https://daudi13.github.io/awesome-book-E6-Modules/) to get a live preview of the project
 
 #### Cloning the project
 ```
-git clone  https://github.com/daudi13/Awesome-books <Your-Build-Directory>
+git clone  https://github.com/daudi13/awesome-book-E6-Modules <Your-Build-Directory>
 ```
 
 ## Getting packages and debuging with Stylelint
